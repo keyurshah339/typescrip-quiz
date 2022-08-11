@@ -93,7 +93,7 @@ export const useLogin = () => {
   const handleGuestLogin = async () => {
     try {
       loginDispatch({ type: "SET_STATUS", payload: "logging in" });
-      const response = await loginUserWithCredentials("puneet", "Puneet@123");
+      const response = await loginUserWithCredentials("keyur", "Batman@1");
       if (response.success) {
         loginDispatch({ type: "SET_STATUS", payload: "login successful" });
         navigate(location.state?.from ? location.state.from : "/");

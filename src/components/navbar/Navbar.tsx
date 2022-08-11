@@ -10,9 +10,7 @@ export const Navbar: React.FC = () => {
       <div className="flex flex-col items-center justify-between sm:flex-row sm:w-4/6  sm:max-w-1000 m-auto">
         <Link to={ROUTE_HOME} className="text-link">
           <div className="text-xl font-logo flex items-center font-semibold cursor-pointer">
-            <h1>Brain</h1>
-            <img src={logo} alt="brain-yoga-logo" className="w-16" />
-            <h1>Yogam</h1>
+            <h1>Quizzo</h1>
           </div>
         </Link>
         <NavDesktop />

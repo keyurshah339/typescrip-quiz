@@ -43,7 +43,6 @@ export type SubmitQuizType = {
 //   "message": "Quiz taken by user updated successfully",
 //   "updatedUser": {
 //     "_id": "60cf347de3313423a46f1f06",
-//     "username": "puneet",
 //     "quizzesTaken": [
 //       {
 //         "_id": "60e248b131c7fa06a4540c72",
