@@ -1,6 +1,6 @@
 // export const ROOT_PATH = "https://morning-brook-83231.herokuapp.com";
 export const ROOT_PATH =
-  "https://brain-yoga-quiz-app-backend-2.puneetsingh2.repl.co";
+  "https://morning-brook-83231.herokuapp.com";
 
 const ID_PARAM = ":id";
 
